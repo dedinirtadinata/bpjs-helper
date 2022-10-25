@@ -1,0 +1,44 @@
+{
+  "debug": true,
+  "server": {
+    "address": ":8091"
+  },
+  "context":{
+    "timeout":2
+  },
+  "bpjs": {
+    "host": "https://apijkn-dev.bpjs-kesehatan.go.id/vclaim-rest-dev",
+    "port": "1521",
+    "consid" : "18753",
+    "secret": "1nH5261676",
+    "userkey": "e7ce9c5c36f72f6f71dbee494c4171bf",
+    "user": "userbpjs",
+    "pass": "passwordbpj",
+    "antrean": {
+      "host": "https://apijkn-dev.bpjs-kesehatan.go.id/antreanrs_dev",
+      "userkey": "8756310d1cf431633c07024faf90705b"
+    },
+    "aplicares": {
+      "host": "https://dvlp.bpjs-kesehatan.go.id:8888"
+    }
+  },
+
+  "simrs": {
+    "host": "localhost",
+    "port": 3309,
+    "user": "root",
+    "pass": "",
+    "database": "dev_hospital"
+  },
+
+  "antrian": {
+    "webservice": "http://localhost/antrianv3m",
+    "host": "localhost",
+    "port": 3309,
+    "user": "root",
+    "pass": "",
+    "database": "antrian_3m"
+  }
+
+}
+
