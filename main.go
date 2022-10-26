@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	viper.SetConfigFile(`config3m.json`)
+	viper.SetConfigFile(`confighelper.json`)
 	err := viper.ReadInConfig()
 	if err != nil {
 		panic(err)
